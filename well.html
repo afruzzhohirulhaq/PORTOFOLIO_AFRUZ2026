@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afruz Zhohirul Haq | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            background-color: #09090b; 
+            color: #fafafa; 
+        }
+
+        .glass-card { 
+            background: rgba(30, 30, 31, 0.8); 
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05); 
+        }
+
+        .accent-text { color: #a855f7; text-shadow: 0 0 10px rgba(168, 85, 247, 0.3); } 
+        
+        .timeline-dot { 
+            box-shadow: 0 0 15px #a855f7, 0 0 5px #a855f7; 
+        }
+
+        .custom-scroll::-webkit-scrollbar { width: 6px; }
+        .custom-scroll::-webkit-scrollbar-track { background: #09090b; }
+        .custom-scroll::-webkit-scrollbar-thumb { 
+            background: #27272a; 
+            border-radius: 10px; 
+        }
+        .custom-scroll::-webkit-scrollbar-thumb:hover { background: #a855f7; }
+
+        html { scroll-behavior: smooth; }
+        
+        section { scroll-margin-top: 100px; }
+
+        aside img {
+            transition: all 0.5s ease;
+            filter: grayscale(0.2) brightness(0.9);
+        }
+        aside:hover img {
+            filter: grayscale(0) brightness(1);
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 177.77%; 
+            height: 0;
+            overflow: hidden;
+            border-radius: 20px;
+            background: #1e1e1f;
+            border: 1px solid #383838;
+        }
+        .video-container video {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            object-fit: cover;
+        }
+
+        .custom-input {
+            background: #2b2b2c;
+            border: 1px solid #383838;
+            border-radius: 15px;
+            padding: 12px 20px;
+            width: 100%;
+            color: #fafafa;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        .custom-input:focus {
+            border-color: #a855f7;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-10 flex justify-center items-start min-h-screen custom-scroll">
+
+    <div class="max-w-6xl w-full flex flex-col md:flex-row gap-6 mb-10">
+        
+        <!-- SIDEBAR -->
+        <aside class="md:w-1/3 lg:w-1/4 w-full glass-card rounded-[30px] p-6 md:sticky md:top-10 h-fit flex flex-col shadow-2xl z-20 border border-white/5">
+            <div class="flex flex-col items-center">
+                <div class="bg-[#3f3f40] rounded-3xl overflow-hidden mb-5 w-48 h-48 md:w-full md:h-72 border border-[#383838]">
+                    <img src="afruz pantai.jpg" alt="Afruz Zhohirul Haq" class="w-full h-full object-cover object-bottom">
+                </div>
+                <h1 class="text-xl font-bold mb-1 text-center">Afruz Zhohirul Haq</h1>
+                <p class="text-purple-500 text-sm font-medium mb-6 uppercase tracking-widest">Videographer</p>
+            </div>
+            
+            <div class="w-full space-y-5 border-t border-[#383838] pt-6 text-[11px]">
+                <div>
+                    <p class="text-[9px] text-purple-500 uppercase font-black tracking-widest mb-1">Tempat, Tanggal Lahir</p>
+                    <p class="text-gray-300 leading-relaxed">Kota Tasikmalaya, 06 Desember 2006</p>
+                </div>
+
+                <div>
+                    <p class="text-[9px] text-purple-500 uppercase font-black tracking-widest mb-1">Alamat Lengkap</p>
+                    <p class="text-gray-300 leading-relaxed">Kp. Nagarasari Kel. Tamanjaya Kec. Tamansari Kota Tasikmalaya Jawa Barat</p>
+                </div>
+
+                <div class="space-y-3">
+                    <p class="text-[9px] text-purple-500 uppercase font-black tracking-widest mb-1">Kontak</p>
+                    <a href="mailto:mulyanaafruz@gmail.com" class="flex items-center gap-3 group text-gray-300 hover:text-purple-400">
+                        <i class="fa-solid fa-envelope w-4"></i> mulyanaafruz@gmail.com
+                    </a>
+                    <a href="https://wa.me/6282318671149" target="_blank" class="flex items-center gap-3 group text-gray-300 hover:text-green-400">
+                        <i class="fab fa-whatsapp w-4 text-base"></i> +62 823-1867-1149
+                    </a>
+                </div>
+
+                <div class="pt-4 border-t border-[#383838] space-y-3">
+                    <p class="text-[9px] text-purple-500 uppercase font-black tracking-widest mb-1">Media Sosial</p>
+                    <a href="https://instagram.com/afruz_zhohirulhaq04" target="_blank" class="flex items-center gap-3 text-gray-300 hover:text-pink-500">
+                        <i class="fab fa-instagram w-4 text-base"></i> @afruz_zhohirulhaq04
+                    </a>
+                    <a href="https://www.tiktok.com/@afruz_zhohirulhaq05" target="_blank" class="flex items-center gap-3 text-gray-300 hover:text-white">
+                        <i class="fab fa-tiktok w-4 text-base"></i> @afruz_zhohirulhaq05
+                    </a>
+                    <a href="https://github.com/afruzzhohirulhaq" target="_blank" class="flex items-center gap-3 text-gray-300 hover:text-white">
+                        <i class="fab fa-github w-4 text-base"></i> @afruzzhohirulhaq
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="md:w-2/3 lg:w-3/4 w-full glass-card rounded-[30px] relative overflow-hidden flex flex-col shadow-2xl border border-white/5">
+            
+            <nav class="hidden md:flex absolute top-0 right-0 bg-[#2b2b2c] border-b border-l border-[#383838] rounded-bl-[30px] z-10 shadow-xl">
+                <ul class="flex gap-8 text-[9px] font-bold px-8 py-3.5 uppercase tracking-[2px] items-center">
+                    <li><a href="#tentang" class="accent-text hover:text-purple-300 transition-colors">Tentang Saya</a></li>
+                    <li><a href="#pendidikan" class="hover:text-purple-400 transition-colors">Pendidikan & Organisasi</a></li>
+                    <li><a href="#pengalaman" class="hover:text-purple-400 transition-colors">Pengalaman Kerja</a></li>
+                    <li><a href="#hasil" class="hover:text-purple-400 transition-colors">Hasil Editan</a></li>
+                    <li><a href="#kontak" class="hover:text-purple-400 transition-colors">Hubungi Saya</a></li>
+                </ul>
+            </nav>
+
+            <div class="p-8 md:p-12">
+                
+                <!-- TENTANG SAYA -->
+                <section id="tentang" class="mb-12">
+                    <h2 class="text-3xl font-bold mb-6">Tentang Saya<span class="block w-12 h-1.5 bg-purple-500 rounded-full mt-2"></span></h2>
+                    <p class="text-gray-300 text-[15px] leading-[1.8] mb-8">
+                        Saya <strong>Afruz Zhohirul Haq</strong> Adalah Seorang Mahasiswa Dari Universitas Mayasari Bakti Tasikmalaya program studi teknik informatika yang mampu beradaptasi, bertanggung jawab, berjiwa disiplin dan memiliki keterampilan praktis inovatif. Mampu mengerjakan proyek sesuai deadline tepat waktu, dan fokus di bidang <strong>Editor sekaligus Content Creator profesional</strong>.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-[#1e1e1f] p-5 rounded-2xl border border-[#383838] hover:border-purple-500/30 transition-all">
+                            <h4 class="text-purple-500 font-bold text-sm mb-3 uppercase tracking-widest">Hard Skill</h4>
+                            <ul class="text-[12px] text-gray-400 space-y-2">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-purple-500"></i> Pengoperasian Kamera iPhone</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-purple-500"></i> Videografi Dasar & Cinematic</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-purple-500"></i> Editing Video CapCut (Mobile)</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-purple-500"></i> Desain Grafis & Estetika</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-purple-500"></i> Pencahayaan & Audio</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-purple-500"></i> Memahami ilmu affiliate & Algoritma</li>
+                            </ul>
+                        </div>
+                        <div class="bg-[#1e1e1f] p-5 rounded-2xl border border-[#383838] hover:border-purple-500/30 transition-all">
+                            <h4 class="text-purple-500 font-bold text-sm mb-3 uppercase tracking-widest">Soft Skill</h4>
+                            <ul class="text-[12px] text-gray-400 space-y-2">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-purple-500"></i> Bercerita (Storytelling)</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-purple-500"></i> Manajemen Waktu & Deadline</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-purple-500"></i> Komunikasi & Negosiasi</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-purple-500"></i> Adaptasi & Pemecahan Masalah</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-purple-500"></i> Kerja Sama Tim & Disiplin</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-circle-dot text-[8px] text-purple-500"></i> Ramah & Cekatan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- PENDIDIKAN & ORGANISASI -->
+                <section id="pendidikan" class="mb-12 border-t border-[#383838] pt-10">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                        <div>
+                            <h3 class="text-xl font-bold mb-8 flex items-center gap-3">
+                                <i class="fa-solid fa-graduation-cap text-purple-500"></i> Pendidikan
+                            </h3>
+                            <div class="border-l-2 border-[#383838] ml-5 space-y-8">
+                                <div class="relative pl-10">
+                                    <div class="absolute w-3 h-3 bg-purple-500 rounded-full -left-[7px] top-1 timeline-dot"></div>
+                                    <h4 class="font-bold text-gray-100 text-sm leading-tight">Univ. Mayasari Bakti Tasikmalaya</h4>
+                                    <p class="text-purple-500 text-[10px] font-bold">S1 Teknik Informatika | 2025 — Sekarang</p>
+                                </div>
+                                <div class="relative pl-10">
+                                    <div class="absolute w-3 h-3 bg-[#383838] rounded-full -left-[7px] top-1"></div>
+                                    <h4 class="font-bold text-gray-100 text-sm leading-tight uppercase">SMK Qiroatussab'ah Kudang</h4>
+                                    <p class="text-purple-500 text-[10px] font-bold">Pemasaran | 2022 — 2025</p>
+                                </div>
+                                <div class="relative pl-10">
+                                    <div class="absolute w-3 h-3 bg-[#383838] rounded-full -left-[7px] top-1"></div>
+                                    <h4 class="font-bold text-gray-100 text-sm leading-tight uppercase">MTs Ar-Rahmah Tasikmalaya</h4>
+                                    <p class="text-purple-500 text-[10px] font-bold">2020 — 2022</p>
+                                </div>
+                                <div class="relative pl-10">
+                                    <div class="absolute w-3 h-3 bg-[#383838] rounded-full -left-[7px] top-1"></div>
+                                    <h4 class="font-bold text-gray-100 text-sm leading-tight uppercase">SDN Gobras 2 Tasikmalaya</h4>
+                                    <p class="text-purple-500 text-[10px] font-bold">2013 — 2019</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-bold mb-8 flex items-center gap-3">
+                                <i class="fa-solid fa-users text-purple-500"></i> Pengalaman Organisasi
+                            </h3>
+                            <div class="border-l-2 border-[#383838] ml-5 space-y-8">
+                                <div class="relative pl-10">
+                                    <div class="absolute w-3 h-3 bg-purple-500 rounded-full -left-[7px] top-1 timeline-dot"></div>
+                                    <h4 class="font-bold text-gray-100 text-[13px] leading-tight">HMIF Universitas Mayasari Bakti</h4>
+                                    <p class="text-purple-500 text-[10px] font-bold">Anggota Aktif | 2025 — Sekarang</p>
+                                </div>
+                                <div class="relative pl-10">
+                                    <div class="absolute w-3 h-3 bg-purple-500 rounded-full -left-[7px] top-1 timeline-dot"></div>
+                                    <h4 class="font-bold text-gray-100 text-[13px] leading-tight uppercase">PMII Komisariat Mayasari Bakti</h4>
+                                    <p class="text-purple-500 text-[10px] font-bold">Anggota Aktif | 2025 — Sekarang</p>
+                                </div>
+                                <div class="relative pl-10">
+                                    <div class="absolute w-3 h-3 bg-[#383838] rounded-full -left-[7px] top-1"></div>
+                                    <h4 class="font-bold text-gray-100 text-[13px] leading-tight uppercase">OSIP (Organisasi Intra Pesantren)</h4>
+                                    <p class="text-purple-500 text-[10px] font-bold">Devisi Pendidikan | 2024 — 2025</p>
+                                </div>
+                                <div class="relative pl-10">
+                                    <div class="absolute w-3 h-3 bg-[#383838] rounded-full -left-[7px] top-1"></div>
+                                    <h4 class="font-bold text-gray-100 text-[13px] leading-tight uppercase">IPNU PK Qiroatussab'ah</h4>
+                                    <p class="text-purple-500 text-[10px] font-bold">2024 — 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- PENGALAMAN KERJA -->
+                <section id="pengalaman" class="mb-12 border-t border-[#383838] pt-10">
+                    <h3 class="text-2xl font-bold mb-8 flex items-center gap-3">
+                        <i class="fa-solid fa-briefcase text-purple-500"></i> Pengalaman Kerja
+                    </h3>
+                    <div class="bg-[#1e1e1f] rounded-3xl p-8 border border-[#383838] hover:border-purple-500/20 transition-all">
+                        <div class="flex flex-col md:flex-row justify-between mb-6 gap-2">
+                            <div>
+                                <h4 class="text-xl font-bold text-white">Freelance Videographer | Project-Based</h4>
+                                <p class="text-purple-400 font-semibold">Rinjani Tour And Travel | 19/05/26</p>
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-[12px] text-gray-400 leading-relaxed">
+                            <div class="space-y-4">
+                                <p><strong>Pra-Produksi</strong> Menyusun konsep kreatif, storyboard, menentukan shot list & teknis kamera bersama tim marketing.</p>
+                                <p><strong>Produksi (Shooting)</strong> Pengambilan gambar di medan outdoor (Gunung Rinjani), eksekusi sinematografi & lighting alami.</p>
+                            </div>
+                            <div class="space-y-4">
+                                <p><strong>Pasca-Produksi</strong> Kurasi footage, syncing audio, sound design, & color grading estetik untuk emosi perjalanan.</p>
+                                <p><strong>Hasil Akhir</strong> Menghasilkan 1 video utama (30s-2m) dan 3 video pendek (reels/shorts) untuk optimalisasi sosmed.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- HASIL EDITING SAYA -->
+                <section id="hasil" class="mb-12 border-t border-[#383838] pt-10">
+                    <h3 class="text-2xl font-bold mb-8 flex items-center gap-3">
+                        <i class="fa-solid fa-clapperboard text-purple-500"></i> Hasil Editing Video 
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        
+                        <!-- CARD 1 -->
+                        <div class="space-y-3 group">
+                            <a href="https://www.instagram.com/reel/DYf-jlSzwFd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="block">
+                                <div class="relative w-full rounded-[20px] overflow-hidden bg-[#1e1e1f] border border-[#383838] transition-all duration-300 group-hover:border-purple-500/50 group-hover:shadow-lg group-hover:shadow-purple-500/10" style="padding-bottom: 177.77%;">
+                                    <img src="BRANGKAT.jpeg" alt="Bumdes Berangkat" class="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 brightness-[0.85] group-hover:brightness-100">
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+                                    <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 transform scale-90 group-hover:scale-100">
+                                        <div class="w-14 h-14 bg-purple-500 text-white rounded-full flex items-center justify-center shadow-lg shadow-purple-500/40 backdrop-blur-sm bg-opacity-90">
+                                            <i class="fa-solid fa-play text-xl ml-1"></i>
+                                        </div>
+                                    </div>
+                                    <div class="absolute bottom-0 left-0 w-full p-4 space-y-1 z-10">
+                                        <span class="px-2 py-0.5 bg-purple-500/20 border border-purple-500/40 rounded-full text-[9px] font-bold text-purple-400 uppercase tracking-widest">
+                                            <i class="fa-solid fa-video mr-1"></i> Project
+                                        </span>
+                                        <p class="text-[13px] font-semibold text-white line-clamp-2 leading-snug pt-1 group-hover:text-purple-300 transition-colors">
+                                            Pemberangkatan Bumdes Goes To Pangandaran
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <p class="text-[11px] font-bold text-center text-gray-500 uppercase tracking-widest group-hover:text-purple-400 transition-colors">Project_afruz_zhohirulhaq04</p>
+                        </div>
+
+                        <!-- CARD 2 -->
+                        <div class="space-y-3 group">
+                            <a href="https://www.instagram.com/reel/DYjHx84SV4S/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="block">
+                                <div class="relative w-full rounded-[20px] overflow-hidden bg-[#1e1e1f] border border-[#383838] transition-all duration-300 group-hover:border-purple-500/50 group-hover:shadow-lg group-hover:shadow-purple-500/10" style="padding-bottom: 177.77%;">
+                                    <img src="ICE BREAKING.jpeg" alt="Ice Breaking" class="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 brightness-[0.85] group-hover:brightness-100">
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+                                    <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 transform scale-90 group-hover:scale-100">
+                                        <div class="w-14 h-14 bg-purple-500 text-white rounded-full flex items-center justify-center shadow-lg shadow-purple-500/40 backdrop-blur-sm bg-opacity-90">
+                                            <i class="fa-solid fa-play text-xl ml-1"></i>
+                                        </div>
+                                    </div>
+                                    <div class="absolute bottom-0 left-0 w-full p-4 space-y-1 z-10">
+                                        <span class="px-2 py-0.5 bg-purple-500/20 border border-purple-500/40 rounded-full text-[9px] font-bold text-purple-400 uppercase tracking-widest">
+                                            <i class="fa-solid fa-video mr-1"></i> Project
+                                        </span>
+                                        <p class="text-[13px] font-semibold text-white line-clamp-2 leading-snug pt-1 group-hover:text-purple-300 transition-colors">
+                                            Bumdes Sindangkasih Ice Breaking To Pangandaran
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <p class="text-[11px] font-bold text-center text-gray-400 uppercase tracking-widest group-hover:text-purple-400 transition-colors">Project_afruz_zhohirulhaq04</p>
+                        </div>
+
+                        <!-- CARD 3 -->
+                        <div class="space-y-3 group">
+                            <a href="https://www.instagram.com/reel/DYlhjHkR5V3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" class="block">
+                                <div class="relative w-full rounded-[20px] overflow-hidden bg-[#1e1e1f] border border-[#383838] transition-all duration-300 group-hover:border-purple-500/50 group-hover:shadow-lg group-hover:shadow-purple-500/10" style="padding-bottom: 177.77%;">
+                                    <img src="DINNER.jpeg" alt="Dinner" class="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 brightness-[0.85] group-hover:brightness-100">
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+                                    <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 transform scale-90 group-hover:scale-100">
+                                        <div class="w-14 h-14 bg-purple-500 text-white rounded-full flex items-center justify-center shadow-lg shadow-purple-500/40 backdrop-blur-sm bg-opacity-90">
+                                            <i class="fa-solid fa-play text-xl ml-1"></i>
+                                        </div>
+                                    </div>
+                                    <div class="absolute bottom-0 left-0 w-full p-4 space-y-1 z-10">
+                                        <span class="px-2 py-0.5 bg-purple-500/20 border border-purple-500/40 rounded-full text-[9px] font-bold text-purple-400 uppercase tracking-widest">
+                                            <i class="fa-solid fa-video mr-1"></i> Project
+                                        </span>
+                                        <p class="text-[13px] font-semibold text-white line-clamp-2 leading-snug pt-1 group-hover:text-purple-300 transition-colors">
+                                            Having Fun And Dinner Time To Kampung Turis
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <p class="text-[11px] font-bold text-center text-gray-400 uppercase tracking-widest group-hover:text-purple-400 transition-colors">Project_afruz_zhohirulhaq04</p>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- HUBUNGI SAYA & MAPS -->
+                <section id="kontak" class="mb-12 border-t border-[#383838] pt-10">
+                    <h3 class="text-2xl font-bold mb-8 flex items-center gap-4">
+                        <span class="p-3 bg-[#2b2b2c] rounded-xl"><i class="fa-solid fa-paper-plane text-purple-500"></i></span> Hubungi Saya
+                    </h3>
+                    
+                    <div class="flex flex-col lg:flex-row gap-8">
+                        <!-- FORM -->
+                        <div class="w-full lg:w-1/2 space-y-4">
+                            <form action="https://www.saveform.io/api/submit/0fb1a5b9-dda5-466d-8be6-28d7e4ca2acc" method="POST" id="contactForm" class="space-y-4">
+                                <div class="flex flex-col md:flex-row gap-4">
+                                    <input type="text" name="Nama" id="nama" placeholder="Nama" class="custom-input" required>
+                                    <input type="text" name="Telepon" id="telepon" placeholder="Telepon" class="custom-input">
+                                </div>
+                                <input type="email" name="Email" id="email" placeholder="E-mail" class="custom-input" required>
+                                <textarea name="Pesan" id="pesan" placeholder="Pesan" rows="5" class="custom-input resize-none" required></textarea>
+                                <button type="submit" class="w-full bg-pink-500 hover:bg-pink-600 text-white font-bold py-4 rounded-[20px] transition-all shadow-lg shadow-pink-500/20 active:scale-95">
+                                    Kirim Pesan
+                                </button>
+                            </form>
+                        </div>
+
+                        <!-- MAPS -->
+                        <div class="w-full lg:w-1/2 h-[350px] rounded-[30px] overflow-hidden border border-[#383838] shadow-2xl">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15827.420844781747!2d108.21952671510341!3d-7.370162057390977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e615467406a6cc3%3A0x6a1006e87a26f332!2sTamanjaya%2C%20Kec.%20Tamansari%2C%20Kab.%20Tasikmalaya%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1708800000000!5m2!1sid!2sid" 
+                                width="100%" 
+                                height="100%" 
+                                style="border:0; filter: grayscale(1) invert(0.9) contrast(1.2);" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- FOOTER -->
+            <footer class="w-full bg-[#2b2b2c]/50 border-t border-[#383838] p-8 mt-auto">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                    <div class="text-center md:text-left">
+                        <p class="text-[9px] text-gray-500 tracking-[4px] uppercase font-black mb-1">Develop by</p>
+                        <p class="text-sm font-bold text-gray-300">© 2026 Afruz Zhohirul Haq</p>
+                    </div>
+                    <div class="flex gap-6 text-xl text-gray-500">
+                        <a href="https://instagram.com/afruz_zhohirulhaq04" target="_blank" class="hover:text-pink-500 transition-colors"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/6282318671149" target="_blank" class="hover:text-green-500 transition-colors"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- SCRIPT UNTUK FORM -->
+    <script>
+        const form = document.getElementById('contactForm');
+        form.onsubmit = async (e) => {
+            const btn = form.querySelector('button');
+            const originalText = btn.innerText;
+            
+            e.preventDefault();
+            btn.disabled = true;
+            btn.innerText = 'Mengirim...';
+
+            const data = new FormData(form);
+            const response = await fetch(form.action, {
+                method: 'POST',
+                body: data,
+                headers: { 'Accept': 'application/json' }
+            });
+
+            if (response.ok) {
+                alert('Pesan berhasil terkirim! terima kasih sudah menghubungi saya');
+                form.reset();
+            } else {
+                alert('Oops! Terjadi kesalahan saat mengirim pesan.');
+            }
+            btn.disabled = false;
+            btn.innerText = originalText;
+        };
+    </script>
+
+</body>
+</html>
